@@ -12,10 +12,10 @@ exports[`should render ExpenseListItem correctly 1`] = `
   </Link>
   <p>
     Amount: 
-    45.00
-     Created at: 
-    345600000
-     Note: 
+    $45.00
+    - Created at: 
+    January 5th, 1970
+    - Note: 
   </p>
 </div>
 `;
