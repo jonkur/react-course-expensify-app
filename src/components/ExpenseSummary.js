@@ -13,10 +13,10 @@ export const ExpenseSummary = (props) => (
 );
 
 const mapStateToProps = (state) => {
-  const expenses = selectExpenses(state.expenses, state.filters);
+  const visibleExpenses = selectExpenses(state.expenses, state.filters);
   return {
-    expenseCount: expenses.length, 
-    expensesTotal: selectExpensesTotal(expenses)
+    expenseCount: visibleExpenses.length, 
+    expensesTotal: selectExpensesTotal(visibleExpenses)
   };
 };
 

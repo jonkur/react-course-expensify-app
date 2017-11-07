@@ -1,22 +1,23 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render ExpenseSummary correctly 1`] = `
+exports[`should render ExpenseSummary correctly with 1 expense 1`] = `
+<div>
+  <p>
+    Viewing 
+    1
+     expense totalling 
+    $3.43
+  </p>
+</div>
+`;
+
+exports[`should render ExpenseSummary correctly with multiple expenses 1`] = `
 <div>
   <p>
     Viewing 
     3
      expenses totalling 
-    $1,141.95
-  </p>
-</div>
-`;
-
-exports[`should render ExpenseSummary correctly with no data passed in 1`] = `
-<div>
-  <p>
-    Viewing 
-     expenses totalling 
-    $0.00
+    $57.12
   </p>
 </div>
 `;
